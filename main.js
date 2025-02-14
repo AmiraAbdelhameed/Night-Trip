@@ -13,14 +13,17 @@ document.querySelector('#search_icon').addEventListener('click', function () {
 
 //menu functionality start
 
-let menu_part=document.querySelector('.menu_part')
-let menu = menu_part.querySelector('.menu_button');
-let menu_links=document.querySelector('.links')
-
+let menuPart=document.querySelector('.menu_part')
+let menu = menuPart.querySelector('.menu_button');
+let menuLinks=document.querySelector('.links')
+let closeMenu=menuPart.querySelector('#close')
 
 menu.addEventListener('click',()=>{
-  console.log('menu')
-  menu_links.classList.toggle('block')
+  menuLinks.classList.toggle('block')
+  
+})
+closeMenu.addEventListener('click',()=>{
+  menuLinks.classList.remove('block')
   
 })
 // menu functionality end
@@ -161,8 +164,12 @@ tripType.forEach((type) => {
 })
 
 
+// your trip button
 
+let yourTrip = document.querySelector('.your_trip')
+let yourTripButton = yourTrip.querySelector('button')
 
-
-
+yourTripButton.addEventListener('click', () => {
+  alert('comming soon')
+})
 
