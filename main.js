@@ -73,33 +73,33 @@ function updateSlider() {
     case imgNumber=`02`:
       
       if( title.innerHTML==`Spooky Times`){
-        imgContent.innerHTML = `Spooky 2`
+        imgContent.innerHTML = `The Stanley Hotel`
       }else if( title.innerHTML==`Desert Madness`){
-        imgContent.innerHTML = `Desert 2`
+        imgContent.innerHTML = `Rub' al Khali`
       }else if(title.innerHTML==`Out in the wild`) {
-        imgContent.innerHTML=`wild 2`;
+        imgContent.innerHTML =`Congo Basin`;
       }else{
         imgContent.innerHTML = `forest`
       }
       break;
       case imgNumber=`03`:
         if( title.innerHTML==`Spooky Times`){
-          imgContent.innerHTML = `Spooky 3`
+          imgContent.innerHTML = `Poveglia Island`
         }else if( title.innerHTML==`Desert Madness`){
-          imgContent.innerHTML = `Desert 3`
+          imgContent.innerHTML = `Atacama Desert`
         }else if(title.innerHTML==`Out in the wild`) {
-          imgContent.innerHTML=`wild 3`;
+          imgContent.innerHTML =`Amazon Rainfores`;
         }else{
           imgContent.innerHTML = `Camping`
         }
         break;
     default:
       if( title.innerHTML==`Spooky Times`){
-        imgContent.innerHTML = `Spooky city  `
+        imgContent.innerHTML = `Aokigahara Forest `
       }else if( title.innerHTML==`Desert Madness`){
-        imgContent.innerHTML = `Desert `
+        imgContent.innerHTML = `Sahara Desert `
       }else if(title.innerHTML==`Out in the wild`) {
-        imgContent.innerHTML=`wild `;
+        imgContent.innerHTML =`Siberian Taiga `;
       }else{
         imgContent.innerHTML=`GRAND DUNES LANDSCAPE`
       }

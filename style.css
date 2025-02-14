@@ -160,10 +160,13 @@ nav .menu_part .links ul li a {
 }
 
 nav .menu_part .links ul li:hover {
-    color: var(--secondary_color);
     padding-left: 2rem;
+    cursor: pointer;
 }
+nav .menu_part .links ul li:hover a{
+    color: var(--secondary_color);
 
+}
 nav .menu_part .menu_button a:hover {
     box-shadow: 5px 15px 40px 0 #00cae041;
 }
