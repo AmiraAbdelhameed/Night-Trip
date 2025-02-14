@@ -237,6 +237,7 @@ body {
     background-image: url('images/BG\ LIGHTS.png');
     background-position: 20% 30%;
 }
+
 /* ---------------pick your trip section---------------  */
 .your_trip {
     margin-bottom: 10rem;
@@ -769,6 +770,14 @@ footer .privacy {
     .your_trip .trip_details .image_details #left_arrow {
         right: 28%;
     }
+
+    .about_us {
+        flex-direction: column-reverse;
+    }
+
+    .about_us .about_us_images {
+        width: 70%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -796,6 +805,10 @@ footer .privacy {
         left: -36%;
     }
 
+    .your_trip .trip_details .image_details {
+        width: 70%;
+    }
+
     .your_trip .trip_details .image_details figure::before {
         left: 31%;
         bottom: 47%;
@@ -804,41 +817,47 @@ footer .privacy {
 
     .your_trip .trip_details .image_details figure {
         position: relative;
-        margin-left: 4rem;
-        /* width: 80%; */
+
+        margin: auto;
+    }
+
+    .your_trip .trip_details figure img {
+        width: 100%;
     }
 
     .your_trip .trip_details .image_details h4 {
-        left: 0rem;
+        left: -2rem;
         top: 60%;
         font-size: 1rem;
     }
 
     .your_trip .trip_details .image_details .img_number {
-        left: 0rem;
+        left: -2rem;
     }
 
     .your_trip .trip_details .image_details #left_arrow {
-        right: 7%;
+        right: 17%;
         padding: 1.4rem
     }
 
     .your_trip .trip_details .image_details #right_arrow {
-        right: -11%;
+        right: 0%;
         padding: 1.4rem;
     }
 
-    .about_us .heading {
-        width: 40%;
-
-    }
 
     .about_us .heading h2 {
         font-size: 3rem;
     }
 
+
     .about_us .about_us_images {
-        width: 30%;
+        width: 70%;
+    }
+
+    .about_us .heading {
+        width: 80%;
+        margin: auto;
     }
 
     .about_us .heading a {
